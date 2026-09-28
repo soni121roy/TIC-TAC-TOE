@@ -1,0 +1,4 @@
+body{text-align:center;font-family:Arial;background:#f0f0f0}
+.board{display:grid;grid-template-columns:repeat(3,100px);gap:5px;justify-content:center;margin:20px auto}
+.cell{width:100px;height:100px;background:#fff;font-size:40px;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,0.2)}
+button{padding:10px 20px;background:#6c5ce7;color:#fff;border:none;border-radius:6px;cursor:pointer}
